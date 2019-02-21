@@ -3,7 +3,7 @@ var url = require('url')
 
 const admin = require('firebase-admin');
 
-var serviceAccount = require('./test-12258-firebase-adminsdk-ki5z1-8f40b73870.json');
+var serviceAccount = require('./yourkey.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
